@@ -1,0 +1,624 @@
+*
+{
+  box-sizing: border-box;
+}
+body
+{
+font-family: 'Raleway', sans-serif;
+}
+.container
+{
+  width: 1200px;
+  margin:auto;
+
+}
+
+
+/************** start navbar***********/
+ .navbar,.header,.service,.test,.gallary,.footer
+{
+    min-width: 1200px
+}
+.navbar
+ {
+  /* overflow:hidden;*/
+  font-family: 'Raleway', sans-serif;
+  font-size: 18px;
+  height: 0;
+  color: #fff;
+  font-weight:bold;
+     position: fixed;
+     top: 10;
+     left: 20;
+     
+     
+
+  z-index: 2;
+     
+ }
+ .navbar .brand
+ {
+   float: left;
+   width: 30%;
+   text-transform: uppercase;
+   padding: 10px 15px;
+   margin: 0;
+
+
+ }
+
+
+.navbar .linkes
+{
+  float: left;
+  width: 70%;
+  list-style: none;
+
+}
+.navbar .linkes li
+{
+  display: inline-block;
+
+  padding: 10px 0;
+  margin-left: 25px;
+  border-bottom: 2px solid transperant;
+  cursor: pointer;
+  text-transform: uppercase;
+  width: 90%%;
+  letter-spacing: 2.5px;
+
+
+}
+.navbar .linkes li a
+{
+  text-decoration: none ;
+  color:#fff; padding-bottom: 5px;
+  transition: 0.5s;
+}
+
+.navbar .linkes li.active a, .navbar .linkes li a:hover
+{
+     color: #00cc9e;
+    border-bottom: 2px solid #00cc9e;
+}
+
+/*********** end navbar**************/
+
+/*////////////// start header ///////////*/
+.header
+{
+  background: url('../img/header.jpeg')  center center scroll no-repeat  ;
+    background-size: cover;
+}
+.header .overlay
+{
+  background-color: rgba(0, 0, 0, 0.4);
+  position: absolute;
+  top: 0;
+  right: 0;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  height: 100%;
+  z-index: 1;
+
+}
+.header .bx-wrapper
+{
+  background: none;
+  border:none;
+  box-shadow: none;
+  height: 100%;
+  padding: 0;
+  margin: 0;
+}
+.header .bx-wrapper .bx-viewport
+{
+  height: 100% !important;
+  text-align: center;
+}
+.header .slider
+{
+  height: 100%
+}
+.header .slider div h2
+{
+  font-size: 65px;
+  text-transform: uppercase;
+  margin-bottom: 0;
+  margin-top: 0;
+}
+.header .slider div h2 span
+{
+  color: #00b786;
+}
+.header .slider div p
+{
+  font-size: 22px;
+  text-transform: capitalize;
+  padding: 10px;
+}
+
+#Container .mix{
+	display: none;
+}
+
+/*////////////// end header ///////////*/
+
+
+/**------------------------- start service ---------------**/
+
+.service
+{
+    padding-top: 10px;
+}
+.service h2
+{
+    margin: 0 0 30px ;
+    padding: 0;
+    text-transform: capitalize
+    
+}
+
+.service .info 
+{
+    float: left;
+    width: 32.3333%;
+    margin: 6px;
+   
+    height: 150px;
+    font-size: 15px; 
+    box-shadow: 1px 4px 16px #0000003b;
+    overflow: hidden;
+   
+}
+.service .info i
+{
+    float: left;
+    width: 25%;
+    padding-top: 12%;
+    color: #a4b0be;
+   
+}
+.service .info div
+{
+    float: left;
+    width: 70%;
+     padding-left: 8px;
+    padding-top: 10px;
+}
+.service .info div h3
+{
+    padding: 0;
+    color: #57606f;
+}
+
+.service .info div p
+{
+    padding-top: 0;
+    margin: 0;
+    letter-spacing: 1px;
+    word-spacing: 1.5px;
+    color: #aaa;
+}
+ .service .deteals
+{
+    float: left;
+    width: 30%;
+    margin-top: 15px;
+    
+}
+ .service .deteals p
+{
+     line-height: 1.3;
+    letter-spacing: 0px;
+    word-spacing: 3px;
+    color: #aaa;
+    padding-top: 10px;
+}
+
+.service .box
+{
+    float: left;
+    width: 21.222%;
+    margin: 1%;
+    position: relative;
+    transition: 0.5s ;
+        
+}
+.service .box:hover .overlay
+{
+    display: block;
+    
+}
+.service .box:hover h4
+{
+    opacity: 0.8;
+    transition-delay: 0.5s;
+}
+.service .box .overlay
+{
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    height: 100%;
+    width: 100%;
+    background: rgba(0, 204, 158, 0.7);
+    text-align: center;
+    display: none;
+     transition: all 1s
+    
+}
+
+.service .box div h4
+{
+    text-transform: uppercase;
+    color: #fff;
+    border: 3px solid #00f7b3;
+    width: 70px;
+    margin: 71px auto;
+    padding: 5px 0;
+    border-radius: 5px;
+    opacity: 0;
+   
+}
+
+
+
+.service .box img
+{
+    width: 100%;
+    
+}
+
+/**------------------------- end  service ---------------**/
+
+/************ !!!!!!!! start tastmoonail !!!!!!!! ************/
+
+
+.test
+{
+    background: url(../img/pexels6.jpeg)  center center scroll no-repeat ;
+    background-size: cover;
+    height:400px;
+    margin:  50px 0 0 0 ;
+    position: relative;
+    text-align: center;
+    padding: 80px 0 20px;
+    
+    
+}
+
+.test .test-overlay
+{
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    width: 100%;
+    height: 100%;
+    background: rgb(0,0,0,0.7);
+    
+}
+
+
+.test   h1
+{
+    font-size: 35px;
+    text-transform: capitalize;
+    color: #eee;
+    position: relative;
+    font-weight: normal;
+    margin: 80px 0 20px ;
+    
+   
+}
+.test    h1 span
+{
+    border-bottom: 1.5px solid #00cc9e;
+    padding-bottom: 5px;
+    width: 200px;
+}
+
+
+.test .container  div 
+{
+    margin-top: 80px;
+    display: none;
+    
+   
+}
+.test .container div.active
+{
+    display: block;
+}
+
+.test   div q
+{
+    color: #e0e0e0d1;
+    font-size: 18px;
+    margin: 50px 50px;
+    display: block;
+    line-height: 1.2;
+    word-spacing: 1.5px;
+    letter-spacing: 1.3px;
+    
+}
+.test  div p
+{
+    color: #00cc9e;
+    text-transform: capitalize;
+        font-size: 21px;
+    font-weight: 700;
+}
+/************ !!!!!!!! end  tastmoonail !!!!!!!! ************/
+
+/*----------- start project ------------*/
+.gallary
+{
+   margin: 10px 0;
+    padding: 20px 0 0;
+}
+
+.gallary h2
+{
+    margin: 0 0 30px ;
+    padding: 0;
+    text-transform: capitalize
+}
+
+.gallary ul
+{
+    list-style: none;
+        margin: 23px 0;
+    padding: 0;
+    
+}
+.gallary ul li
+{
+      display: inline-block;
+    margin-right: 9px;
+    text-transform: capitalize;
+    border: 2px solid #dadada;
+    padding: 7px 16px;
+    color: #848484;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.gallary ul li.active
+{
+    color: #e2e2e2;
+    background: #00cc9e;
+    border: 2px solid #00cc9e;
+}
+
+.project
+{
+   margin: 40px 0;
+overflow: hidden
+}
+.project .row
+{
+    width: 100%;
+    height: 250px;
+     overflow: hidden;
+    margin-bottom: 25px;
+}
+.project .row div
+{
+    float: left;
+    width: 32%;
+    margin-bottom: 20px;
+    box-shadow: 1px 4px 16px #0000006b;
+    position: relative;
+    text-align: center;
+}
+.project .row div img
+{
+    width: 100%;
+}
+.project .row div:nth-child(2)
+{
+    margin-left: 2%;
+    margin-right: 2%;
+}
+.row div h4
+{
+    text-transform: uppercase;
+    color: #fff;
+    border: 3px solid #fff;
+    width: 84px;
+    margin: 115px auto;
+    padding: 10px 0;
+    border-radius: 5px;
+    display: none;
+}
+
+
+.row div .img-overlay
+{
+        position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    width: 100%;
+    height: 100%;
+    background: #00b7869c;
+    display: none;
+}
+
+.row div:hover .img-overlay ,
+.row div:hover h4
+{
+    display: block;
+}
+
+/*----------- e n d project ------------*/
+
+/*****\\\\\\\ start footer //////****/
+
+.footer
+{
+      
+    background-color: #191919;
+    padding-top: 40px;
+    color: #5f5f5f;
+    border-radius:6px
+        ;
+    overflow: hidden;
+}
+    
+}
+.footer .col
+{
+    overflow: hidden;
+    
+}
+.footer .col .info 
+{
+    width: 25%;
+    float: left;
+}
+
+.footer .col .info  h4
+{
+    font-size: 23px;
+    
+    text-transform: capitalize;
+    color: #eee;
+    font-weight: normal;
+}
+
+.footer .col .info p
+{
+    line-height: 1.5;
+    letter-spacing: 0.7px;
+    word-spacing: 0.6px;
+    padding: 5px 5px 5px 0;
+}
+
+.footer .col .info i
+{
+    
+    padding: 5px;
+    border-radius: 3px;
+    margin: 10px 10px 0 0 ;
+}
+
+.footer .col .info span
+{
+    padding: 10px;
+    border: 1px solid #b1afaf;
+    border-radius:6px;
+    margin: 10px 10px 10px 0;
+    display: inline-block;
+        
+}
+.footer .col .image
+{
+    overflow: hidden;
+    margin-bottom: 10px;
+}
+.footer .col .recent img
+{
+    float: left;
+    margin-right: 10px;
+    width: 80px;
+    height: 80px;
+}
+.footer .col .recent h5
+{
+    font-size: 20px;
+    color: #ccc;
+    margin:6px 0;
+    font-weight: normal
+}
+.footer .col .recent span
+{
+    border: none;
+}
+.footer .col .info ul
+{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+.footer .col .info ul li
+{
+    margin: 10px 0 40px 0;
+    font-size: 20px;
+    border-bottom: 1px solid #4a4a4a;
+    padding: 0 10px 15px 0;
+    color: #969696;
+}
+.copy
+{
+    text-align: center;
+    padding: 20px ;
+    color: #a0a0a0;
+}
+
+
+/*****\\\\\\\ e n d footer //////****/
+
+
+/****** start top****/
+.button
+{
+    position: fixed;
+    right: 20px;
+    bottom: 30px;
+    display: none;
+    cursor: pointer
+}
+.button i
+{
+    display: block;
+    background: #dedede7d;
+    color: #00cc9e;
+    border-radius: 50%;
+    padding: 15px;
+    font-size: 34px;
+    
+}
+.button:hover i
+{
+    color: #fff;
+    background: #00cc9e;
+}
+/**** end top/
+
+
+
+/********** start may framwork******/
+.clearfix
+{
+  clear: both;
+}
+
+.border-header
+{
+   position: relative;
+    
+}
+.border-header:after
+{
+    content: "";
+    position: absolute;
+    top: 31px;
+    left: 3px;
+    width: 26px;
+    border: 2px solid #00CC9E;
+}
+.line
+{
+    
+    margin: 40px 0;.
+    display: block;
+}
+
+/************* end   framwork   **********/
